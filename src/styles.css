@@ -1,0 +1,170 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: #f0f2f5;
+  color: #1a1a1a;
+}
+
+.page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+}
+
+.auth-box,
+.dashboard-box {
+  width: 100%;
+  max-width: 420px;
+  background: #fff;
+  border: 1px solid #e2e5eb;
+  border-radius: 8px;
+  padding: 28px 24px;
+}
+
+.auth-box--wide {
+  max-width: 480px;
+}
+
+.dashboard-box {
+  max-width: 640px;
+}
+
+h2 {
+  margin: 0 0 4px;
+  font-size: 1.5rem;
+}
+
+.subtitle {
+  margin: 0 0 20px;
+  color: #667085;
+  font-size: 0.95rem;
+}
+
+.field {
+  margin-bottom: 14px;
+}
+
+.field label {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+
+.field input {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #d0d5dd;
+  border-radius: 6px;
+  font-size: 0.95rem;
+}
+
+.field input:focus {
+  outline: 2px solid #2f6fed;
+  outline-offset: 1px;
+  border-color: #2f6fed;
+}
+
+.field-error {
+  display: block;
+  margin-top: 4px;
+  color: #c62828;
+  font-size: 0.8rem;
+}
+
+.error-banner {
+  background: #fdecea;
+  color: #c62828;
+  border: 1px solid #f5c2c0;
+  border-radius: 6px;
+  padding: 10px 12px;
+  margin: 0 0 16px;
+  font-size: 0.9rem;
+}
+
+.btn {
+  width: 100%;
+  margin-top: 8px;
+  padding: 11px 16px;
+  border: none;
+  border-radius: 6px;
+  background: #2f6fed;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn:hover:not(:disabled) {
+  background: #2459c9;
+}
+
+.btn:disabled {
+  opacity: 0.65;
+  cursor: not-allowed;
+}
+
+.btn--secondary {
+  width: auto;
+  background: #475467;
+}
+
+.btn--secondary:hover:not(:disabled) {
+  background: #344054;
+}
+
+.footer-link {
+  margin: 18px 0 0;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+.footer-link a {
+  color: #2f6fed;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.footer-link a:hover {
+  text-decoration: underline;
+}
+
+.dashboard-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 4px;
+}
+
+.table-wrap {
+  overflow-x: auto;
+}
+
+.user-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+}
+
+.user-table th,
+.user-table td {
+  text-align: left;
+  padding: 12px 14px;
+  border-bottom: 1px solid #e4e7ec;
+}
+
+.user-table th {
+  background: #f8f9fc;
+  font-weight: 600;
+}
+
+.user-table tbody tr:last-child td {
+  border-bottom: none;
+}
