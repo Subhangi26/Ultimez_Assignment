@@ -1,4 +1,13 @@
-<!-- Live Link: https://ultimez-task-experienced.vercel.app/ -->
+<!-- Live Link: https://ultimez-assignment.vercel.app/ -->
+
+# Ultimez Assignment
+
+**Hosted link:** https://ultimez-assignment.vercel.app/  
+**GitHub repo:** https://github.com/Subhangi26/Ultimez_Assignment  
+
+Demo login: `developer@gmail.com` / `123123`
+
+---
 
 # Requirements and Output
 
